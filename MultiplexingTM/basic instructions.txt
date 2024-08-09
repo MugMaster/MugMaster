@@ -1,0 +1,8 @@
+Since: 8/8/2024
+By: Teddy Macdonald
+
+1. find out if you have a common cathode or common anode display and find the right folder
+2. use pin check code to find what pins connect to what letter on your ardunio ie; 1 = pin B (half-assed graphic provided)
+3. copy multiplexing code to new folder (optional) and replace existing pin connection code with what you made on step 2
+4. write your code paying special attention that it runs inbetween the refresh code! ie; multiple short delays inside loop with count
+varible instead of one delay command. This type of stuff will make your display work consistantly
